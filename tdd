@@ -4,8 +4,55 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tXZdTISMOQm98zEs8cdH-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="230" y="220" width="220" height="220" as="geometry" />
+        <mxCell id="tXZdTISMOQm98zEs8cdH-6" value="Clicks" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXZdTISMOQm98zEs8cdH-4" target="tXZdTISMOQm98zEs8cdH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-4" value="User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXZdTISMOQm98zEs8cdH-5" target="tXZdTISMOQm98zEs8cdH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-9" value="Redirected to ECP with encrypted email value and token in the GET parameter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tXZdTISMOQm98zEs8cdH-8">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-5" value="Organization invite email with CTF&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-16" value="Decrypt email value, start login attempt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="sourcePoint" />
+            <mxPoint x="600" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-24" value="Start registration process by passing the data token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXZdTISMOQm98zEs8cdH-7" target="tXZdTISMOQm98zEs8cdH-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-7" value="ECP FE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-17" value="Decrypt email value, start login attempt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tXZdTISMOQm98zEs8cdH-10" target="tXZdTISMOQm98zEs8cdH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-21" value="Decrypted email, login token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tXZdTISMOQm98zEs8cdH-10" target="tXZdTISMOQm98zEs8cdH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-10" value="API Proxy" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-20" value="Decrypted email, login token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="250" as="sourcePoint" />
+            <mxPoint x="720" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-12" value="Core" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tXZdTISMOQm98zEs8cdH-23" value="Business Account FE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
