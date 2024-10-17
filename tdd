@@ -21,7 +21,7 @@
         <mxCell id="tXZdTISMOQm98zEs8cdH-5" value="Organization invite email with CTA on the Email&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tXZdTISMOQm98zEs8cdH-16" value="Decrypt email value, start/check login attempt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="tXZdTISMOQm98zEs8cdH-10">
+        <mxCell id="tXZdTISMOQm98zEs8cdH-16" value="Decrypt email value, start/check login attempt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="tXZdTISMOQm98zEs8cdH-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="210" as="sourcePoint" />
             <mxPoint x="600" y="210" as="targetPoint" />
@@ -84,6 +84,17 @@
             <mxPoint x="1010" y="470" as="sourcePoint" />
             <mxPoint x="1020" y="140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="v1VKD-mmhjEHnWaF1kYa-2" value="Encryption Key and Key Uuid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="v1VKD-mmhjEHnWaF1kYa-1" target="tXZdTISMOQm98zEs8cdH-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="290" />
+              <mxPoint x="1301" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v1VKD-mmhjEHnWaF1kYa-1" value="Secrets Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
